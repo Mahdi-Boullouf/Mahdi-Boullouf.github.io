@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Rubik:wght@500&display=swap');
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+  .regular{
+    font-family: Rubik;
+    
+}
+
+.medium {
+    font-family: Rubik;
+    font-weight: 500;
+}
+.bold{
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+}
+
+.bgcolor{
+    background-color: #1C1F2D;
+}
+
+.primary-custom{
+    color: #FFD47D;
+}
+
+.text-color{
+    color: #DEE3FF;
+}
+.text-color-muted{
+    color: #dee3ffab;
+}
+.primary-background{
+    
+    background-color: #8A3DFF;
+    
+}
+
+.cardby{
+    border-radius: 14px;
+    background-color: #27293b;
+}
+
+
+
+
+
+
+#section-1{
+background: url(../images/bf.jpg) no-repeat center ;
+background-size: cover;
+
+}
+#vectora{
+    display: none;
+}
+
+@media  only screen and  (max-width:360px) {
+
+    #section-1{
+        background-image: none;
+        background-color:  #1C1F2D;
+
+    }
+    #vectora{
+        display: block;
+    }
+    
+}
